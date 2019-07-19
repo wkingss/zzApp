@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+}
+#root{
+  width:100%;
+  height: 100%;
+}
+#app{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+#app>div{
+  width: 100%;
+  height: 100%;
+}
+.navTag{
+  border:1px solid #ccc;
+  color: #000;
+}
+.deleteBtn{
+  border:1px solid #ccc;
+  color: #000;
+}
+.headerTag{
+  display: flex
+}
+/* .headerTag>div{
+  margin:0 10px;
+} */
